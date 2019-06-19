@@ -64,7 +64,7 @@ class App extends Component {
   };
 
   handleShuffle = () => {
-    let shuffledFriends = randomBands(bands);
+    let shuffledBands = randomBands(bands);
     this.setState({ bands: shuffledBands });
   };
 
