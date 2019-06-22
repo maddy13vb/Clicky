@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import BandCard from "./components/BandCard";
+import BandCard from "./components/BandCard/BandCard";
 // import Wrapper from "./components/Wrapper";
 // import Header from "./components/Header";
 import bands from "./bands.json";
@@ -43,13 +43,6 @@ class App extends Component {
   //   });
   // }
 
-  handleClick = event => {
-    console.log("Clicked!")
-
-  }
-  render() {
-    return <button onClick={this.handleClick}> CLick Here</button>
-  }
 
   // removeBand = id => {
   // Filter this.state.friends for friends with an id not equal to the id being removed
@@ -71,8 +64,7 @@ class App extends Component {
               key={bands.id}
               name={bands.name}
               image={bands.image}
-              occupation={bands.occupation}
-              location={bands.location}
+
             />
           ))}
         </div>

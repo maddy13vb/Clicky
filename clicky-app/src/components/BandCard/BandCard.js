@@ -2,10 +2,14 @@ import React from "react";
 import "./style.css";
 
 function BandCard(props) {
+    const handleClick = () => {
+        console.log("Clicked!")
+    }
+
     return (
         <div className="card">
             <div className="img-container">
-                <img className="img" alt={props.name} src={props.image} />
+                <img onClick={handleClick} className="img" alt={props.name} src={props.image} />
             </div>
             <div className="content">
                 <ul>
