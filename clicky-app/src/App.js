@@ -79,9 +79,9 @@ class App extends Component {
 
 export default App;
 
-//OnChange event needs to be added.
-//  When the photo is clicked, an event change should occur.
-//  Points should be added per photo click. 
-// Points are generated with Math.random
-// If the same photo is clicked more than once, game over.
-//Many changes to come, stay tuned for commits.
+//counter needs to be fixed. When i tried adding it, I broke my code over and over again.
+//Random number should be generated when clicking. Currently it just goes 1+
+//Score should be displayed in a div instead of on console.log
+//Deployment once the site is fully functional
+
+

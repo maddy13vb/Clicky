@@ -2,8 +2,10 @@ import React from "react";
 import "./style.css";
 
 function BandCard(props) {
+
     const handleClick = () => {
         console.log("Clicked!")
+
     }
 
     return (
