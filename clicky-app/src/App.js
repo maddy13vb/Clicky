@@ -44,7 +44,11 @@ class App extends Component {
   // }
 
   handleClick = event => {
+    console.log("Clicked!")
 
+  }
+  render() {
+    return <button onClick={this.handleClick}> CLick Here</button>
   }
 
   // removeBand = id => {
